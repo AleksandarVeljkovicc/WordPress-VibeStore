@@ -1,0 +1,38 @@
+[18-Apr-2025 14:57:13 UTC] WordPress database error Table 'local.wp_omnisend_contact_cache' doesn't exist for query SELECT contact_id FROM wp_omnisend_contact_cache WHERE `email` = 'dev-email@wpengine.local' made by wp_signon, do_action('wp_login'), WP_Hook->do_action, WP_Hook->apply_filters, omnisend_wplogin, Omnisend_Contact_Resolver::update_by_user_id, Omnisend_Contact_Resolver::resolve_email_to_contact_id, Omnisend_Contact_Cache::get
+[18-Apr-2025 15:51:18 UTC] PHP Warning:  Undefined array key "editor_post_id" in C:\Users\PC\Local Sites\vibestore\app\public\wp-content\plugins\elementor\modules\history\revisions-manager.php on line 363
+[23-Apr-2025 17:32:06 UTC] WordPress database error Table 'local.wp_omnisend_contact_cache' doesn't exist for query SELECT contact_id FROM wp_omnisend_contact_cache WHERE `email` = 'dev-email@wpengine.local' made by wp_signon, do_action('wp_login'), WP_Hook->do_action, WP_Hook->apply_filters, omnisend_wplogin, Omnisend_Contact_Resolver::update_by_user_id, Omnisend_Contact_Resolver::resolve_email_to_contact_id, Omnisend_Contact_Cache::get
+[23-Apr-2025 20:00:49 UTC] WordPress database error Table 'local.wp_omnisend_contact_cache' doesn't exist for query SELECT contact_id FROM wp_omnisend_contact_cache WHERE `email` = 'dev-email@wpengine.local' made by require('wp-blog-header.php'), wp, WP->main, WP->parse_request, do_action_ref_array('parse_request'), WP_Hook->do_action, WP_Hook->apply_filters, rest_api_loaded, WP_REST_Server->serve_request, WP_REST_Server->dispatch, WP_REST_Server->respond_to_request, WP_REST_Users_Controller->update_current_item, WP_REST_Users_Controller->update_item, wp_update_user, wp_insert_user, do_action('profile_update'), WP_Hook->do_action, WP_Hook->apply_filters, omnisend_on_user_update, Omnisend_Contact_Resolver::update_by_user_id, Omnisend_Contact_Resolver::resolve_email_to_contact_id, Omnisend_Contact_Cache::get
+[24-Apr-2025 15:57:59 UTC] WordPress database error Table 'local.wp_omnisend_contact_cache' doesn't exist for query SELECT contact_id FROM wp_omnisend_contact_cache WHERE `email` = 'dev-email@wpengine.local' made by wp_signon, do_action('wp_login'), WP_Hook->do_action, WP_Hook->apply_filters, omnisend_wplogin, Omnisend_Contact_Resolver::update_by_user_id, Omnisend_Contact_Resolver::resolve_email_to_contact_id, Omnisend_Contact_Cache::get
+[24-Apr-2025 19:02:10 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_gallery_image_ids() on bool in C:\Users\PC\Local Sites\vibestore\app\public\wp-content\plugins\elementor\modules\ai\module.php:348
+Stack trace:
+#0 C:\Users\PC\Local Sites\vibestore\app\public\wp-includes\class-wp-hook.php(324): Elementor\Modules\Ai\Module->get_product_images_ajax('')
+#1 C:\Users\PC\Local Sites\vibestore\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#2 C:\Users\PC\Local Sites\vibestore\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\Users\PC\Local Sites\vibestore\app\public\wp-admin\admin-ajax.php(192): do_action('wp_ajax_element...')
+#4 {main}
+  thrown in C:\Users\PC\Local Sites\vibestore\app\public\wp-content\plugins\elementor\modules\ai\module.php on line 348
+[24-Apr-2025 19:22:22 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_gallery_image_ids() on bool in C:\Users\PC\Local Sites\vibestore\app\public\wp-content\plugins\elementor\modules\ai\module.php:348
+Stack trace:
+#0 C:\Users\PC\Local Sites\vibestore\app\public\wp-includes\class-wp-hook.php(324): Elementor\Modules\Ai\Module->get_product_images_ajax('')
+#1 C:\Users\PC\Local Sites\vibestore\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#2 C:\Users\PC\Local Sites\vibestore\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\Users\PC\Local Sites\vibestore\app\public\wp-admin\admin-ajax.php(192): do_action('wp_ajax_element...')
+#4 {main}
+  thrown in C:\Users\PC\Local Sites\vibestore\app\public\wp-content\plugins\elementor\modules\ai\module.php on line 348
+[24-Apr-2025 19:34:31 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_gallery_image_ids() on bool in C:\Users\PC\Local Sites\vibestore\app\public\wp-content\plugins\elementor\modules\ai\module.php:348
+Stack trace:
+#0 C:\Users\PC\Local Sites\vibestore\app\public\wp-includes\class-wp-hook.php(324): Elementor\Modules\Ai\Module->get_product_images_ajax('')
+#1 C:\Users\PC\Local Sites\vibestore\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#2 C:\Users\PC\Local Sites\vibestore\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\Users\PC\Local Sites\vibestore\app\public\wp-admin\admin-ajax.php(192): do_action('wp_ajax_element...')
+#4 {main}
+  thrown in C:\Users\PC\Local Sites\vibestore\app\public\wp-content\plugins\elementor\modules\ai\module.php on line 348
+[24-Apr-2025 19:49:15 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_gallery_image_ids() on bool in C:\Users\PC\Local Sites\vibestore\app\public\wp-content\plugins\elementor\modules\ai\module.php:348
+Stack trace:
+#0 C:\Users\PC\Local Sites\vibestore\app\public\wp-includes\class-wp-hook.php(324): Elementor\Modules\Ai\Module->get_product_images_ajax('')
+#1 C:\Users\PC\Local Sites\vibestore\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#2 C:\Users\PC\Local Sites\vibestore\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\Users\PC\Local Sites\vibestore\app\public\wp-admin\admin-ajax.php(192): do_action('wp_ajax_element...')
+#4 {main}
+  thrown in C:\Users\PC\Local Sites\vibestore\app\public\wp-content\plugins\elementor\modules\ai\module.php on line 348
+[24-Apr-2025 21:57:49 UTC] WordPress database error Table 'local.wp_omnisend_contact_cache' doesn't exist for query SELECT contact_id FROM wp_omnisend_contact_cache WHERE `email` = 'dev-email@wpengine.local' made by wp_signon, do_action('wp_login'), WP_Hook->do_action, WP_Hook->apply_filters, omnisend_wplogin, Omnisend_Contact_Resolver::update_by_user_id, Omnisend_Contact_Resolver::resolve_email_to_contact_id, Omnisend_Contact_Cache::get
